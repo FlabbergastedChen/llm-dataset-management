@@ -15,8 +15,8 @@
                 </el-form-item>
                 <el-form-item label="数据集类型" prop="dataset_type">
                     <el-radio-group v-model="formData.dataset_type">
-                        <el-radio label="0" size="large" border>代码</el-radio>
-                        <el-radio label="1" size="large" border>文档</el-radio>
+                        <el-radio :label="0" size="large" border>代码</el-radio>
+                        <el-radio :label="1" size="large" border>文档</el-radio>
                     </el-radio-group>
                 </el-form-item>
                 <el-form-item label="数据集来源" prop="dataset_source">
