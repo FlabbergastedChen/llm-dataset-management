@@ -15,9 +15,9 @@ coverage
 *.local
 
 # unplugin-auto-import
-auto-imports.d.ts
-components.d.ts
-.eslintrc-auto-import.json
+# auto-imports.d.ts
+# components.d.ts
+# .eslintrc-auto-import.json
 
 /cypress/videos/
 /cypress/screenshots/
@@ -31,5 +31,5 @@ components.d.ts
 *.sw?
 
 # .env
-.env.development
-.env.production
+# .env.development
+# .env.production
